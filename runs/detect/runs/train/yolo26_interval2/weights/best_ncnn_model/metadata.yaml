@@ -1,0 +1,20 @@
+description: Ultralytics YOLO26n model trained on dataset_split_interval2\data.yaml
+author: Ultralytics
+date: '2026-06-08T16:26:36.939703'
+version: 8.4.51
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Anomali
+  1: Normal
+args:
+  batch: 1
+  half: false
+channels: 3
+end2end: false

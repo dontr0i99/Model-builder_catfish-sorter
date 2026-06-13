@@ -1,0 +1,4 @@
+model,path,status,mAP50,mAP50-95,latency_ms,latency_std_ms,fps,size_mb,images
+NCNN FP32,D:\Kuliah\Skripsi\model-dataset-2-kelas\runs\detect\runs\train\yolo26_lele-2\weights\quantized_ncnn\yolo26_ncnn_model_fp32,ok,0.995,0.8757858782597031,47.71399884217924,4.869729390626669,20.95820983916357,9.212518692016602,144
+NCNN FP16,D:\Kuliah\Skripsi\model-dataset-2-kelas\runs\detect\runs\train\yolo26_lele-2\weights\quantized_ncnn\yolo26_ncnn_model_fp16,ok,0.995,0.8764025157491373,43.9675694449559,4.119415873105171,22.74403640282925,4.698334693908691,144
+NCNN INT8,D:\Kuliah\Skripsi\model-dataset-2-kelas\runs\detect\runs\train\yolo26_lele-2\weights\quantized_ncnn\yolo26_ncnn_model_int8,ok,0.6516643015418441,0.39383392688276264,35.120721760230715,3.167258250041295,28.47321893971893,2.4417285919189453,144
